@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1512151541">
+  <File Type="PWROPT-DRC" Name="Pong_TopLevel_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Pong_TopLevel_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Pong_TopLevel_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Pong_TopLevel_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="Pong_TopLevel.tcl"/>
+  <File Type="OPT-HWDEF" Name="Pong_TopLevel.hwdef"/>
+  <File Type="RDI-RDI" Name="Pong_TopLevel.vdi"/>
+  <File Type="OPT-DCP" Name="Pong_TopLevel_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Pong_TopLevel_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Pong_TopLevel_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Pong_TopLevel_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Pong_TopLevel_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Pong_TopLevel_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Pong_TopLevel_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Pong_TopLevel_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Pong_TopLevel_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Pong_TopLevel_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Pong_TopLevel_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Pong_TopLevel_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Pong_TopLevel_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Pong_TopLevel_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Pong_TopLevel_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Pong_TopLevel_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Pong_TopLevel_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Pong_TopLevel_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Pong_TopLevel_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Pong_TopLevel_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Pong_TopLevel_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Pong_TopLevel_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Pong_TopLevel_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Pong_TopLevel_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Pong_TopLevel.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="Pong_TopLevel_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="Pong_TopLevel.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Pong_TopLevel_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="Pong_TopLevel.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Pong_TopLevel_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Pong_TopLevel.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Pong_TopLevel_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Pong_TopLevel_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Pong_TopLevel_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Pong_TopLevel_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Pong_TopLevel_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Pong_TopLevel_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Pong_TopLevel_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Pong_TopLevel_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Pong_TopLevel_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Pong_TopLevel_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Pong_TopLevel_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Pong_TopLevel_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Pong_TopLevel_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Pong_TopLevel_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Pong_TopLevel_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="Pong_TopLevel.bit"/>
+  <File Type="BITSTR-RBT" Name="Pong_TopLevel.rbt"/>
+  <File Type="BITSTR-NKY" Name="Pong_TopLevel.nky"/>
+  <File Type="BITSTR-BMM" Name="Pong_TopLevel_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Pong_TopLevel.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Pong_TopLevel.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/vga_sync.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Pong_TopLevel.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Pong_TopLevel"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Desktop/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1509494955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
