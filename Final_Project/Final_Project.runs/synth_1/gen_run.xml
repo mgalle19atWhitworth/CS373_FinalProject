@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1512151540">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1512410540">
   <File Type="RDS-PROPCONSTRS" Name="Pong_TopLevel_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="Pong_TopLevel.tcl"/>
   <File Type="RDS-RDS" Name="Pong_TopLevel.vds"/>
@@ -43,9 +43,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

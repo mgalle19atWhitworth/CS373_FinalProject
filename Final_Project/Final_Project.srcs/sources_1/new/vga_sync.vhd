@@ -63,12 +63,13 @@ begin
           v_count_reg <= (others=>'0');
           h_count_reg <= (others=>'0');
           v_sync_reg <= '0';
-          h_sync_reg <= '0';
+          h_sync_reg <= '0';       
        elsif (clk50mhz'event and clk50mhz='1') then 
           v_count_reg <= v_count_next;
           h_count_reg <= h_count_next;
           v_sync_reg <= v_sync_next;
           h_sync_reg <= h_sync_next;
+  
        end if;
    end process;
    
@@ -118,7 +119,7 @@ begin
       '1' when (v_count_reg>=(VD+VF))           --490
            and (v_count_reg<=(VD+VF+VR-1)) else --491
       '0';
-   
+      
    -- video on/off
    video_on <=
       '1' when (h_count_reg<HD) and (v_count_reg<VD) else
@@ -127,7 +128,7 @@ begin
    -- output signal
    hsync <= h_sync_reg;
    vsync <= v_sync_reg;
-   pixel_x <= std_logic_vector(h_count_reg);
+   pixel_x <= std_logic_vector(h_count_reg);                     
    pixel_y <= std_logic_vector(v_count_reg);
    p_tick <= pixel_tick;
    

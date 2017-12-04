@@ -14,8 +14,6 @@ end Pong_TopLevel;
 
 architecture bouncing_box of Pong_TopLevel is
    signal pixel_x, pixel_y: std_logic_vector(9 downto 0);
-   signal p1_pixel_x, p1_pixel_y: std_logic_vector(9 downto 0);
-   signal p2_pixel_x, p2_pixel_y: std_logic_vector(9 downto 0);
    signal video_on, pixel_tick: std_logic;
    signal red_reg, red_next: std_logic_vector(3 downto 0) := (others => '0');
    signal green_reg, green_next: std_logic_vector(3 downto 0) := (others => '0');
@@ -44,11 +42,11 @@ begin
     p1_xl <= p1_x;
     p1_yt <= p1_y;
     p1_xr <= p1_x + 5;
-    p1_yb <= p1_y +20;
-    p2_xl <= p2_x;
+    p1_yb <= p1_y +30;
+    p2_xl <= p2_x+545;
     p2_yt <= p2_y;
-    p2_xr <= p2_x + 5;
-    p2_yb <= p2_y +20;
+    p2_xr <= p2_x +550;
+    p2_yb <= p2_y +30;
     
     
     -- process to generate update position signal
@@ -123,27 +121,40 @@ begin
     end process;
     
     -- process to generate next colors           
-    process (pixel_x, pixel_y,p1_pixel_x, p1_pixel_y,p2_pixel_x, p2_pixel_y)
+    process (pixel_x, pixel_y)
     begin
            if (unsigned(pixel_x) > box_xl) and (unsigned(pixel_x) < box_xr) and
-           (unsigned(pixel_y) > box_yt) and (unsigned(pixel_y) < box_yb) and 
-           (unsigned(p1_pixel_x) > p1_xl) and (unsigned(p1_pixel_x) < p1_xr) and
-           (unsigned(p1_pixel_y) > p1_yt) and (unsigned(p1_pixel_y) < p1_yb) and 
-           (unsigned(p2_pixel_x) > p2_xl) and (unsigned(p2_pixel_x) < p2_xr) and
-           (unsigned(p2_pixel_y) > p2_yt) and (unsigned(p2_pixel_y) < p2_yb)
+              (unsigned(pixel_y) > box_yt) and (unsigned(pixel_y) < box_yb)
+           
            then
-               -- foreground box color yellow
+               -- foreground box color red
                red_next <= "1111";
-               green_next <= "0000";
+               green_next <= "1111";
                blue_next <= "0000"; 
+           elsif (unsigned(pixel_x) > p1_xl) and (unsigned(pixel_x) < p1_xr) and
+                 (unsigned(pixel_y) > p1_yt) and (unsigned(pixel_y) < p1_yb)
+                 
+           then
+            red_next <= "1111";
+            green_next <= "0000";
+            blue_next <= "0000";  
+            
+           elsif (unsigned(pixel_x) > p2_xl) and (unsigned(pixel_x) < p2_xr) and
+                 (unsigned(pixel_y) > p2_yt) and (unsigned(pixel_y) < p2_yb)
+            
+           then 
+               red_next <= "0000";
+               green_next <= "1111";
+               blue_next <= "0000";
            else    
-               -- background color blue
+               -- background color black
                red_next <= "0000";
                green_next <= "0000";
                blue_next <= "0000";
            end if;   
     end process;
-
+    
+           
    -- generate r,g,b registers
    process ( video_on, pixel_tick, red_next, green_next, blue_next)
    begin
