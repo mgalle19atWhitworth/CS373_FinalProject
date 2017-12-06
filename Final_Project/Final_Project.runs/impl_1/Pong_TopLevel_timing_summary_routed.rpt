@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Mon Dec  4 10:03:46 2017
+| Date         : Wed Dec  6 10:05:22 2017
 | Host         : LAB-SCI-214-22 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -warn_on_violation -max_paths 10 -file Pong_TopLevel_timing_summary_routed.rpt -rpx Pong_TopLevel_timing_summary_routed.rpx
 | Design       : Pong_TopLevel
@@ -52,9 +52,9 @@ Table of Contents
 
 1. checking no_clock
 --------------------
- There are 68 register/latch pins with no clock driven by root clock pin: clk (HIGH)
+ There are 134 register/latch pins with no clock driven by root clock pin: clk (HIGH)
 
- There are 64 register/latch pins with no clock driven by root clock pin: update_pos_reg/Q (HIGH)
+ There are 128 register/latch pins with no clock driven by root clock pin: update_pos_reg/Q (HIGH)
 
  There are 22 register/latch pins with no clock driven by root clock pin: vga_sync_unit/clk_divider_reg[0]/Q (HIGH)
 
@@ -89,14 +89,14 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 345 pins that are not constrained for maximum delay. (HIGH)
+ There are 539 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
 
 5. checking no_input_delay
 --------------------------
- There are 5 input ports with no input delay specified. (HIGH)
+ There are 3 input ports with no input delay specified. (HIGH)
 
  There are 0 input ports with no input delay but user has a false path constraint.
 

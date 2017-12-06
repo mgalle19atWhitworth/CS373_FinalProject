@@ -5,6 +5,7 @@ use ieee.numeric_std.all;
 entity Pong_TopLevel is
    port(
       clk, reset, btn_l, btn_r, btn_u, btn_d: in std_logic;
+      SW: in std_logic_vector(15 downto 0);
       hsync, vsync: out  std_logic;
       red: out std_logic_vector(3 downto 0);
       green: out std_logic_vector(3 downto 0);
@@ -19,6 +20,8 @@ architecture bouncing_box of Pong_TopLevel is
    signal green_reg, green_next: std_logic_vector(3 downto 0) := (others => '0');
    signal blue_reg, blue_next: std_logic_vector(3 downto 0) := (others => '0'); 
    signal dir_x, dir_y : integer := 1;  
+   signal p1_dir_x, p1_dir_y : integer := 1;
+   signal p2_dir_x, p2_dir_y : integer := 1;
    signal x, y, next_x, next_y : integer := 0;       
    signal box_xl, box_yt, box_xr, box_yb : integer := 0; 
    signal p1_xl, p1_yt, p1_xr, p1_yb : integer := 0;
@@ -43,9 +46,9 @@ begin
     p1_yt <= p1_y;
     p1_xr <= p1_x + 5;
     p1_yb <= p1_y +30;
-    p2_xl <= p2_x+545;
+    p2_xl <= p2_x+635;
     p2_yt <= p2_y;
-    p2_xr <= p2_x +550;
+    p2_xr <= p2_x +640;
     p2_yb <= p2_y +30;
     
     
@@ -64,9 +67,45 @@ begin
          end if;
     end process;
 
+	process(SW(15),p1_yt,p1_yb,p1_dir_y,clk)
+	begin
+	   if rising_edge(clk) then
+	       if(SW(15) = '0') then
+	           p1_dir_y <=1;
+	           p1_y <= p1_next_y;
+	      elsif (p1_yb > 450) and (p1_dir_y = 1) then
+                 p1_dir_y <= -1;
+                 p1_y <=420;
+          elsif (p1_yt < 1) and (p1_dir_y = -1) then
+                 p1_dir_y <= 1;   
+                 p1_y <= 0; 
+	       else
+	           p1_dir_y <= -1;
+	           p1_y <= p1_next_y;
+	       end if;
+	   end if;
+	end process;
 	
+    process(SW(0),p2_yt,p2_yb,p2_dir_y,clk)
+    begin
+        if rising_edge(clk) then
+            if(SW(0) = '0') then
+               p2_dir_y <=1;
+               p2_y <= p2_next_y;
+            elsif (p2_yb > 479) and (p2_dir_y = 1) then
+               p2_dir_y <= -1;
+               p2_y <=449 ;
+               
+            else
+               p2_dir_y <= -1;
+               p2_y <= p2_next_y;
+               end if;
+           end if;
+     end process;
+	           
+	           
 	-- compute collision in x
-	process ( btn_r, btn_l, dir_x, clk, box_xr, box_xl, box_yt, box_yb)
+	process (dir_x, clk, box_xr, box_xl, box_yt, box_yb)
 	begin
         if rising_edge(clk) then 
 		    if (box_xr > 639) and (dir_x = 1) then
@@ -75,12 +114,6 @@ begin
             elsif (box_xl < 1) and (dir_x = -1) then
                 dir_x <= 1;   
 				x <= 0;				
-            elsif ( btn_r = '1' ) then 
-                dir_x <= 1;
-				x <= next_x;
-            elsif ( btn_l = '1' ) then 
-                dir_x <= -1;
-				x <= next_x;
 		    else 
 				dir_x <= dir_x;
 				x <= next_x;
@@ -89,7 +122,7 @@ begin
 	end process;
 	
 	-- compute collision in y
-	process ( btn_u, btn_d, dir_y, clk, box_xr, box_xl, box_yt, box_yb)
+	process (dir_y, clk, box_xr, box_xl, box_yt, box_yb)
 	begin
         if rising_edge(clk) then 
 		    if (box_yb > 479) and (dir_y = 1) then
@@ -97,13 +130,7 @@ begin
                 y <=464 ;
             elsif (box_yt < 1) and (dir_y = -1) then
                 dir_y <= 1;   
-                y <= 0; 	
-            elsif ( btn_u = '1' ) then 
-                dir_y <= -1;
-				y <= next_y;
-            elsif ( btn_d = '1' ) then 
-                dir_y <= 1;
-				y <= next_y;
+                y <= 0; 
 		    else 
 				dir_y <= dir_y;
 				y <= next_y;
@@ -112,11 +139,13 @@ begin
 	end process;	
 	
     -- compute the next x,y position of box 
-    process ( update_pos, x, y )
+    process ( update_pos, x, y,p1_y,p2_y )
     begin
         if rising_edge(update_pos) then 
 			next_x <= x + dir_x;
 			next_y <= y + dir_y;
+			p1_next_y <= p1_y + p1_dir_y;
+			p2_next_y <= p2_y + p2_dir_y;
 		end if;
     end process;
     
