@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Wed Dec  6 20:04:37 2017
-| Host         : LAB-SCI-214-22 running 64-bit major release  (build 9200)
+| Date         : Thu Dec  7 12:25:29 2017
+| Host         : LAB-SCI-214-13 running 64-bit major release  (build 9200)
 | Command      : report_drc -file Pong_TopLevel_drc_opted.rpt
 | Design       : Pong_TopLevel
 | Device       : xc7a100tcsg324-1

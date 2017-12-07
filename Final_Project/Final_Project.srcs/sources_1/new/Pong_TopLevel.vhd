@@ -42,13 +42,13 @@ begin
     box_yt <= y;
     box_xr <= x + 15;
     box_yb <= y + 15;  
-    p1_xl <= p1_x;
+    p1_xl <= p1_x +5;
     p1_yt <= p1_y;
-    p1_xr <= p1_x + 5;
+    p1_xr <= p1_x + 10;
     p1_yb <= p1_y +50;
-    p2_xl <= p2_x+635;
+    p2_xl <= p2_x+625;
     p2_yt <= p2_y;
-    p2_xr <= p2_x +640;
+    p2_xr <= p2_x +630;
     p2_yb <= p2_y +50;
     
     
@@ -72,7 +72,7 @@ begin
 	   if rising_edge(clk) then
 	        if (p1_yb > 479) and (p1_dir_y = 1) then
 	           p1_dir_y <= -1;
-               p1_y <=449 ; 
+               p1_y <=429 ; 
 	        elsif(SW(15) = '0') then
 	           p1_dir_y <=1;
 	           p1_y <= p1_next_y;
@@ -94,7 +94,7 @@ begin
         if rising_edge(clk) then
            if (p2_yb > 479) and (p2_dir_y = 1) then
                p2_dir_y <= -1;
-               p2_y <=449; 
+               p2_y <=429; 
             elsif(SW(0) = '0') then
                p2_dir_y <=1;
                p2_y <= p2_next_y;
@@ -113,18 +113,21 @@ begin
 	process (dir_x, clk, box_xr, box_xl, box_yt, box_yb)
 	begin
         if rising_edge(clk) then    	
-		    if (box_xl >= p1_xr) then 
+		    if (box_xl >= p1_xl) and (box_xl < p1_xr) then 
 		        dir_x <= 1;
 		        x <= next_x;
-		    elsif (box_xr >= p2_xl) then 
+		    elsif (box_xr <= p2_xr) and (box_xr > p2_xl) then 
 		        dir_x <= -1;
 		        x <= next_x;
             elsif (box_xr > 639) and (dir_x = 1) then
-               x <= 200;     
+               x <= 200;   
+               dir_x<= dir_x;  
             elsif (box_xl < 1) and (dir_x = -1) then
-               x <= 200; 	     		
+               x <= 200; 	
+               dir_x <= dir_x;           		
 		    else 
 				dir_x <= dir_x;
+				x <= next_x;
 				
             end if;
 		end if;
@@ -133,7 +136,7 @@ begin
 	-- compute collision in y
 	process (dir_y, clk, box_xr, box_xl, box_yt, box_yb)
 	begin
-        if rising_edge(clk) then 
+        if rising_edge(clk) then           
 		    if (box_yb > 479) and (dir_y = 1) then
                 dir_y <= -1;
                 y <=464 ;

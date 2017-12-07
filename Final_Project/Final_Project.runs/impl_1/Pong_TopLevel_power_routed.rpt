@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date             : Wed Dec  6 20:05:07 2017
-| Host             : LAB-SCI-214-22 running 64-bit major release  (build 9200)
+| Date             : Thu Dec  7 12:26:00 2017
+| Host             : LAB-SCI-214-13 running 64-bit major release  (build 9200)
 | Command          : report_power -file Pong_TopLevel_power_routed.rpt -pb Pong_TopLevel_power_summary_routed.pb -rpx Pong_TopLevel_power_routed.rpx
 | Design           : Pong_TopLevel
 | Device           : xc7a100tcsg324-1
@@ -29,18 +29,18 @@ Table of Contents
 1. Summary
 ----------
 
-+--------------------------+-------+
-| Total On-Chip Power (W)  | 9.888 |
-| Dynamic (W)              | 9.700 |
-| Device Static (W)        | 0.188 |
-| Effective TJA (C/W)      | 4.6   |
-| Max Ambient (C)          | 39.9  |
-| Junction Temperature (C) | 70.1  |
-| Confidence Level         | Low   |
-| Setting File             | ---   |
-| Simulation Activity File | ---   |
-| Design Nets Matched      | NA    |
-+--------------------------+-------+
++--------------------------+--------+
+| Total On-Chip Power (W)  | 10.981 |
+| Dynamic (W)              | 10.769 |
+| Device Static (W)        | 0.211  |
+| Effective TJA (C/W)      | 4.6    |
+| Max Ambient (C)          | 34.9   |
+| Junction Temperature (C) | 75.1   |
+| Confidence Level         | Low    |
+| Setting File             | ---    |
+| Simulation Activity File | ---    |
+| Design Nets Matched      | NA     |
++--------------------------+--------+
 
 
 1.1 On-Chip Components
@@ -49,16 +49,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     4.786 |     1234 |       --- |             --- |
-|   LUT as Logic |     3.914 |      531 |     63400 |            0.84 |
-|   CARRY4       |     0.569 |      180 |     15850 |            1.14 |
-|   Register     |     0.287 |      325 |    126800 |            0.26 |
+| Slice Logic    |     5.768 |     1311 |       --- |             --- |
+|   LUT as Logic |     4.852 |      577 |     63400 |            0.91 |
+|   CARRY4       |     0.600 |      188 |     15850 |            1.19 |
+|   Register     |     0.301 |      325 |    126800 |            0.26 |
 |   BUFG         |     0.015 |        3 |        32 |            9.38 |
 |   Others       |     0.000 |        4 |       --- |             --- |
-| Signals        |     4.667 |      688 |       --- |             --- |
-| I/O            |     0.247 |       18 |       210 |            8.57 |
-| Static Power   |     0.188 |          |           |                 |
-| Total          |     9.888 |          |           |                 |
+| Signals        |     4.755 |      695 |       --- |             --- |
+| I/O            |     0.246 |       18 |       210 |            8.57 |
+| Static Power   |     0.211 |          |           |                 |
+| Total          |    10.981 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -68,16 +68,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     9.553 |       9.465 |      0.088 |
-| Vccaux    |       1.800 |     0.036 |       0.009 |      0.027 |
-| Vcco33    |       3.300 |     0.071 |       0.067 |      0.004 |
+| Vccint    |       1.000 |    10.642 |      10.535 |      0.106 |
+| Vccaux    |       1.800 |     0.038 |       0.009 |      0.030 |
+| Vcco33    |       3.300 |     0.070 |       0.066 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.002 |       0.000 |      0.002 |
+| Vccbram   |       1.000 |     0.003 |       0.000 |      0.003 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
@@ -135,8 +135,8 @@ Table of Contents
 +-----------------+-----------+
 | Name            | Power (W) |
 +-----------------+-----------+
-| Pong_TopLevel   |     9.700 |
-|   vga_sync_unit |     0.865 |
+| Pong_TopLevel   |    10.769 |
+|   vga_sync_unit |     0.925 |
 +-----------------+-----------+
 
 
