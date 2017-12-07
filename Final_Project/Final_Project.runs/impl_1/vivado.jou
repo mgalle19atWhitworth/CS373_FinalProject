@@ -2,8 +2,8 @@
 # Vivado v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Wed Dec  6 10:04:31 2017
-# Process ID: 7308
+# Start of session at: Wed Dec  6 20:04:17 2017
+# Process ID: 9228
 # Current directory: C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.runs/impl_1
 # Command line: vivado.exe -log Pong_TopLevel.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Pong_TopLevel.tcl -notrace
 # Log file: C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.runs/impl_1/Pong_TopLevel.vdi

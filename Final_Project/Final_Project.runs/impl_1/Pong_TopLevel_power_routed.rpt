@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date             : Wed Dec  6 10:05:21 2017
+| Date             : Wed Dec  6 20:05:07 2017
 | Host             : LAB-SCI-214-22 running 64-bit major release  (build 9200)
 | Command          : report_power -file Pong_TopLevel_power_routed.rpt -pb Pong_TopLevel_power_summary_routed.pb -rpx Pong_TopLevel_power_routed.rpx
 | Design           : Pong_TopLevel
@@ -30,12 +30,12 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 9.021 |
-| Dynamic (W)              | 8.849 |
-| Device Static (W)        | 0.172 |
+| Total On-Chip Power (W)  | 9.888 |
+| Dynamic (W)              | 9.700 |
+| Device Static (W)        | 0.188 |
 | Effective TJA (C/W)      | 4.6   |
-| Max Ambient (C)          | 43.8  |
-| Junction Temperature (C) | 66.2  |
+| Max Ambient (C)          | 39.9  |
+| Junction Temperature (C) | 70.1  |
 | Confidence Level         | Low   |
 | Setting File             | ---   |
 | Simulation Activity File | ---   |
@@ -49,16 +49,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     4.616 |     1147 |       --- |             --- |
-|   LUT as Logic |     3.730 |      485 |     63400 |            0.76 |
-|   CARRY4       |     0.572 |      165 |     15850 |            1.04 |
-|   Register     |     0.299 |      325 |    126800 |            0.26 |
+| Slice Logic    |     4.786 |     1234 |       --- |             --- |
+|   LUT as Logic |     3.914 |      531 |     63400 |            0.84 |
+|   CARRY4       |     0.569 |      180 |     15850 |            1.14 |
+|   Register     |     0.287 |      325 |    126800 |            0.26 |
 |   BUFG         |     0.015 |        3 |        32 |            9.38 |
 |   Others       |     0.000 |        4 |       --- |             --- |
-| Signals        |     3.986 |      672 |       --- |             --- |
+| Signals        |     4.667 |      688 |       --- |             --- |
 | I/O            |     0.247 |       18 |       210 |            8.57 |
-| Static Power   |     0.172 |          |           |                 |
-| Total          |     9.021 |          |           |                 |
+| Static Power   |     0.188 |          |           |                 |
+| Total          |     9.888 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -68,8 +68,8 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     8.690 |       8.614 |      0.075 |
-| Vccaux    |       1.800 |     0.034 |       0.009 |      0.025 |
+| Vccint    |       1.000 |     9.553 |       9.465 |      0.088 |
+| Vccaux    |       1.800 |     0.036 |       0.009 |      0.027 |
 | Vcco33    |       3.300 |     0.071 |       0.067 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -135,8 +135,8 @@ Table of Contents
 +-----------------+-----------+
 | Name            | Power (W) |
 +-----------------+-----------+
-| Pong_TopLevel   |     8.849 |
-|   vga_sync_unit |     0.872 |
+| Pong_TopLevel   |     9.700 |
+|   vga_sync_unit |     0.865 |
 +-----------------+-----------+
 
 
