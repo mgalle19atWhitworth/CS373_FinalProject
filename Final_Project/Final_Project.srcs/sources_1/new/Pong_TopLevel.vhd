@@ -136,8 +136,8 @@ begin
 	-- compute collision in y
 	process (dir_y, clk, box_xr, box_xl, box_yt, box_yb)
 	begin
-        if rising_edge(clk) then           
-		    if (box_yb > 479) and (dir_y = 1) then
+        if rising_edge(clk) then  
+            if (box_yb > 479) and (dir_y = 1) then
                 dir_y <= -1;
                 y <=464 ;
             elsif (box_yt < 1) and (dir_y = -1) then

@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
-| Date         : Thu Dec  7 12:25:32 2017
-| Host         : LAB-SCI-214-13 running 64-bit major release  (build 9200)
+| Date         : Thu Dec  7 20:30:08 2017
+| Host         : LAB-SCI-214-22 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Pong_TopLevel_control_sets_placed.rpt
 | Design       : Pong_TopLevel
 | Device       : xc7a100t
@@ -33,11 +33,11 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |             130 |           38 |
+| No           | No                    | No                     |             130 |           37 |
 | No           | No                    | Yes                    |               4 |            3 |
 | No           | Yes                   | No                     |             171 |           44 |
 | Yes          | No                    | No                     |               0 |            0 |
-| Yes          | No                    | Yes                    |              20 |            8 |
+| Yes          | No                    | Yes                    |              20 |            6 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -52,17 +52,17 @@ Table of Contents
 |  clk_IBUF_BUFG                         |                            |                       |                1 |              1 |
 |  vga_sync_unit/clk_divider_reg_n_0_[0] |                            | reset_IBUF            |                2 |              2 |
 |  clk_IBUF_BUFG                         |                            | reset_IBUF            |                1 |              2 |
-|  clk_IBUF_BUFG                         |                            | dir_y16_out           |                1 |              5 |
-|  clk_IBUF_BUFG                         |                            | p2_dir_y117_out       |                1 |              7 |
+|  clk_IBUF_BUFG                         |                            | y[8]_i_1_n_0          |                2 |              5 |
+|  clk_IBUF_BUFG                         |                            | p2_dir_y123_out       |                2 |              7 |
 |  vga_sync_unit/Q[0]                    |                            | vga_sync_unit/red_reg |                2 |              8 |
-|  vga_sync_unit/clk_divider_reg_n_0_[0] | vga_sync_unit/Q[0]         | reset_IBUF            |                4 |             10 |
-|  vga_sync_unit/clk_divider_reg_n_0_[0] | vga_sync_unit/v_count_reg0 | reset_IBUF            |                4 |             10 |
+|  vga_sync_unit/clk_divider_reg_n_0_[0] | vga_sync_unit/v_count_reg0 | reset_IBUF            |                3 |             10 |
+|  vga_sync_unit/clk_divider_reg_n_0_[0] | vga_sync_unit/Q[0]         | reset_IBUF            |                3 |             10 |
 |  clk_IBUF_BUFG                         |                            | p2_y[31]_i_1_n_0      |                8 |             26 |
 |  clk_IBUF_BUFG                         |                            | y[31]_i_1_n_0         |                9 |             28 |
 |  video_on_BUFG                         |                            | clear                 |                8 |             32 |
-|  clk_IBUF_BUFG                         |                            | x                     |                7 |             32 |
-|  clk_IBUF_BUFG                         |                            | p_22_in               |                8 |             33 |
-|  update_pos_BUFG                       |                            |                       |               36 |            128 |
+|  clk_IBUF_BUFG                         |                            | x                     |                8 |             32 |
+|  clk_IBUF_BUFG                         |                            | p_28_in               |                5 |             33 |
+|  update_pos_BUFG                       |                            |                       |               35 |            128 |
 +----------------------------------------+----------------------------+-----------------------+------------------+----------------+
 
 
