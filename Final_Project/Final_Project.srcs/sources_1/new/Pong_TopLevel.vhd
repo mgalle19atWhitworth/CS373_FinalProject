@@ -9,6 +9,8 @@ entity Pong_TopLevel is
       hsync, vsync: out  std_logic;
       red: out std_logic_vector(3 downto 0);
       green: out std_logic_vector(3 downto 0);
+      a: in STD_LOGIC_vector(3 downto 0);
+      b: in std_Logic_vector(3 downto 0);
       blue: out std_logic_vector(3 downto 0)           
    );
 end Pong_TopLevel;
@@ -29,6 +31,16 @@ architecture bouncing_box of Pong_TopLevel is
    signal update_pos : std_logic := '0';  
    signal p1_x, p1_y, p1_next_y : integer := 0;  
    signal p2_x, p2_y, p2_next_y : integer := 0;  
+ 
+component x7seg is
+       port (
+           x7: in STD_LOGIC_VECTOR(31 downto 0);
+           CLK : in STD_LOGIC;
+           A_TO_G : out STD_LOGIC_VECTOR(6 downto 0);
+           AN : out STD_LOGIC_VECTOR(7 downto 0);
+           DP : out STD_LOGIC
+        );  
+end component;
 begin
    -- instantiate VGA sync circuit
    vga_sync_unit: entity work.vga_sync
@@ -51,7 +63,7 @@ begin
     p2_xr <= p2_x +630;
     p2_yb <= p2_y +50;
     
-    
+ 
     -- process to generate update position signal
     process ( video_on )
         variable counter : integer := 0;
@@ -114,9 +126,11 @@ begin
 	begin
         if rising_edge(clk) then    	
 		    if (box_xl >= p1_xl) and (box_xl < p1_xr) then 
+ 
 		        dir_x <= 1;
 		        x <= next_x;
 		    elsif (box_xr <= p2_xr) and (box_xr > p2_xl) then 
+
 		        dir_x <= -1;
 		        x <= next_x;
             elsif (box_xr > 639) and (dir_x = 1) then
@@ -132,6 +146,14 @@ begin
             end if;
 		end if;
 	end process;
+    --X2: x7seg
+  --  port map(
+  --  x7 => x7,
+   -- CLK => CLK,
+   -- A_TO_G => A_TO_G,
+   -- AN=> AN,
+   -- DP=> DP
+   -- );
 	
 	-- compute collision in y
 	process (dir_y, clk, box_xr, box_xl, box_yt, box_yb)
