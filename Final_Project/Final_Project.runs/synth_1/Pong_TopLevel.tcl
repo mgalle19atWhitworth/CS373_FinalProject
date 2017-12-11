@@ -8,16 +8,16 @@ create_project -in_memory -part xc7a100tcsg324-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.cache/wt [current_project]
-set_property parent.project_path C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.cache/wt [current_project]
+set_property parent.project_path C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
-set_property ip_output_repo c:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.cache/ip [current_project]
+set_property ip_output_repo c:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd
-  C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd
+  C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd
+  C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -27,8 +27,8 @@ read_vhdl -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc
-set_property used_in_implementation false [get_files C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+read_xdc C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc
+set_property used_in_implementation false [get_files C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
 
 
 synth_design -top Pong_TopLevel -part xc7a100tcsg324-1

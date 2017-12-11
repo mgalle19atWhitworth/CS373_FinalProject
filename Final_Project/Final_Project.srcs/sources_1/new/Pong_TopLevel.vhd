@@ -70,7 +70,7 @@ begin
     begin
         if rising_edge(video_on) then
             counter := counter + 1;
-            if counter > 200 then
+            if counter > 300 then
                 counter := 0;
                 update_pos <= '1';
             else
@@ -119,8 +119,7 @@ begin
                end if;
            end if;
      end process;
-	           --(box_yt = p2_yt)) or ((box_xr >= p2_xl) and (box_yb = p2_yb)) then
-	         --(box_yt = p1_yt)) or ((box_xl >= p1_xr) and (box_yb = p1_yb)) then  
+ 
 	-- compute collision in x
 	process (dir_x, clk, box_xr, box_xl, box_yt, box_yb)
 	begin
@@ -146,14 +145,14 @@ begin
             end if;
 		end if;
 	end process;
-    --X2: x7seg
+  --X2: x7seg
   --  port map(
   --  x7 => x7,
-   -- CLK => CLK,
-   -- A_TO_G => A_TO_G,
-   -- AN=> AN,
-   -- DP=> DP
-   -- );
+  -- CLK => CLK,
+  -- A_TO_G => A_TO_G,
+  -- AN=> AN,
+  -- DP=> DP
+  -- );
 	
 	-- compute collision in y
 	process (dir_y, clk, box_xr, box_xl, box_yt, box_yb)
@@ -190,13 +189,14 @@ begin
               (unsigned(pixel_y) > box_yt) and (unsigned(pixel_y) < box_yb)
            
            then
-               -- foreground box color red
+               -- foreground box color yellow
                red_next <= "1111";
                green_next <= "1111";
                blue_next <= "0000"; 
            elsif (unsigned(pixel_x) > p1_xl) and (unsigned(pixel_x) < p1_xr) and
                  (unsigned(pixel_y) > p1_yt) and (unsigned(pixel_y) < p1_yb)
-                 
+            
+           -- Left Paddle Red      
            then
             red_next <= "1111";
             green_next <= "0000";
@@ -204,7 +204,8 @@ begin
             
            elsif (unsigned(pixel_x) > p2_xl) and (unsigned(pixel_x) < p2_xr) and
                  (unsigned(pixel_y) > p2_yt) and (unsigned(pixel_y) < p2_yb)
-            
+           
+           -- Right Paddle Green 
            then 
                red_next <= "0000";
                green_next <= "1111";

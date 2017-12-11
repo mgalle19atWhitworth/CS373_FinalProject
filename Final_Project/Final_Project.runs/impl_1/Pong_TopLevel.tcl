@@ -52,12 +52,12 @@ set rc [catch {
   set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.cache/wt [current_project]
-  set_property parent.project_path C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.xpr [current_project]
-  set_property ip_output_repo C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.cache/wt [current_project]
+  set_property parent.project_path C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.xpr [current_project]
+  set_property ip_output_repo C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.runs/synth_1/Pong_TopLevel.dcp
-  read_xdc C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc
+  add_files -quiet C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.runs/synth_1/Pong_TopLevel.dcp
+  read_xdc C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc
   link_design -top Pong_TopLevel -part xc7a100tcsg324-1
   close_msg_db -file init_design.pb
 } RESULT]
