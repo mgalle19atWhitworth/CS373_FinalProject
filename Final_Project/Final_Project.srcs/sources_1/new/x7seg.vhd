@@ -23,7 +23,7 @@ use IEEE.STD_LOGIC_unsigned.all;
 
 entity x7seg is
 	port (
-	       x7: in STD_LOGIC_VECTOR(31 downto 0);
+	        x7: in STD_LOGIC_VECTOR(31 downto 0);
             CLK : in STD_LOGIC;
             A_TO_G : out STD_LOGIC_VECTOR(6 downto 0);
             AN : out STD_LOGIC_VECTOR(7 downto 0);
