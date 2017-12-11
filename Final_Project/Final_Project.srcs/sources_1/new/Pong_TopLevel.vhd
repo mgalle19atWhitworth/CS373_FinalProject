@@ -145,14 +145,15 @@ begin
             end if;
 		end if;
 	end process;
-  --X2: x7seg
-  --  port map(
-  --  x7 => x7,
+  
+ -- X2: x7seg
+    --port map(
+   -- x7 => x7,
   -- CLK => CLK,
-  -- A_TO_G => A_TO_G,
-  -- AN=> AN,
-  -- DP=> DP
-  -- );
+   --A_TO_G => A_TO_G,
+   --AN=> AN,
+   --DP=> DP
+--  );
 	
 	-- compute collision in y
 	process (dir_y, clk, box_xr, box_xl, box_yt, box_yb)

@@ -14,26 +14,26 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t-csg324'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13500 
+INFO: Helper process launched with PID 8924 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 313.117 ; gain = 78.492
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 313.820 ; gain = 79.695
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Pong_TopLevel' [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:18]
-INFO: [Synth 8-638] synthesizing module 'vga_sync' [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd:16]
-INFO: [Synth 8-256] done synthesizing module 'vga_sync' (1#1) [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd:16]
-WARNING: [Synth 8-614] signal 'box_xl' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'box_xr' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'box_yt' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'box_yb' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'p1_xl' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'p1_xr' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'p1_yt' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'p1_yb' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'p2_xl' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'p2_xr' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'p2_yt' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-WARNING: [Synth 8-614] signal 'p2_yb' is read in the process but is not in the sensitivity list [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
-INFO: [Synth 8-256] done synthesizing module 'Pong_TopLevel' (2#1) [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'Pong_TopLevel' [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'vga_sync' [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'vga_sync' (1#1) [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd:16]
+WARNING: [Synth 8-614] signal 'box_xl' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'box_xr' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'box_yt' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'box_yb' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'p1_xl' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'p1_xr' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'p1_yt' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'p1_yb' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'p2_xl' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'p2_xr' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'p2_yt' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+WARNING: [Synth 8-614] signal 'p2_yb' is read in the process but is not in the sensitivity list [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:187]
+INFO: [Synth 8-256] done synthesizing module 'Pong_TopLevel' (2#1) [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:18]
 WARNING: [Synth 8-3331] design Pong_TopLevel has unconnected port SW[14]
 WARNING: [Synth 8-3331] design Pong_TopLevel has unconnected port SW[13]
 WARNING: [Synth 8-3331] design Pong_TopLevel has unconnected port SW[12]
@@ -57,7 +57,7 @@ WARNING: [Synth 8-3331] design Pong_TopLevel has unconnected port b[2]
 WARNING: [Synth 8-3331] design Pong_TopLevel has unconnected port b[1]
 WARNING: [Synth 8-3331] design Pong_TopLevel has unconnected port b[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 353.195 ; gain = 118.570
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 353.145 ; gain = 119.020
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -67,104 +67,152 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 353.195 ; gain = 118.570
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 353.145 ; gain = 119.020
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
-WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:33]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:33]
+Parsing XDC File [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:33]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:34]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:34]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:35]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:35]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:36]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:36]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:37]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:37]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:38]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:38]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:39]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:39]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:40]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:40]
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:40]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:41]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:41]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:42]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:42]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:43]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:43]
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:43]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:44]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:44]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:45]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:45]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:46]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:46]
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:46]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:47]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:47]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:48]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:48]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'btn_u'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:85]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:85]
+WARNING: [Vivado 12-584] No ports matched 'A_TO_G[0]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:60]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'btn_l'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:86]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:86]
+WARNING: [Vivado 12-584] No ports matched 'A_TO_G[1]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:61]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'btn_r'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:87]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:87]
+WARNING: [Vivado 12-584] No ports matched 'A_TO_G[2]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:62]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'btn_d'. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:88]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:88]
+WARNING: [Vivado 12-584] No ports matched 'A_TO_G[3]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:63]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Pong_TopLevel_propImpl.xdc].
+WARNING: [Vivado 12-584] No ports matched 'A_TO_G[4]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A_TO_G[5]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A_TO_G[7]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DP'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[4]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[5]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[6]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[7]'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_u'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_l'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_r'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn_d'. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Pong_TopLevel_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Pong_TopLevel_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 659.418 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 659.113 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "v_end" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "h_end" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:72]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:72]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -250,9 +298,9 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "v_end" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "h_end" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-6014] Unused sequential element h_count_reg_reg was removed.  [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd:64]
-WARNING: [Synth 8-6014] Unused sequential element v_count_reg_reg was removed.  [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd:63]
-WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:72]
+WARNING: [Synth 8-6014] Unused sequential element h_count_reg_reg was removed.  [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd:64]
+WARNING: [Synth 8-6014] Unused sequential element v_count_reg_reg was removed.  [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/vga_sync.vhd:63]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.srcs/sources_1/new/Pong_TopLevel.vhd:72]
 WARNING: [Synth 8-3331] design Pong_TopLevel has unconnected port SW[14]
 WARNING: [Synth 8-3331] design Pong_TopLevel has unconnected port SW[13]
 WARNING: [Synth 8-3331] design Pong_TopLevel has unconnected port SW[12]
@@ -385,7 +433,7 @@ WARNING: [Synth 8-3332] Sequential element (dir_y_reg[0]) is unused and will be 
 WARNING: [Synth 8-3332] Sequential element (blue_reg_reg[3]) is unused and will be removed from module Pong_TopLevel.
 WARNING: [Synth 8-3332] Sequential element (p1_dir_y_reg[0]) is unused and will be removed from module Pong_TopLevel.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -397,13 +445,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -415,7 +463,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -439,7 +487,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -452,7 +500,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -464,25 +512,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -521,11 +569,11 @@ Report Instance Areas:
 |2     |  vga_sync_unit |vga_sync |   180|
 +------+----------------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 659.418 ; gain = 424.793
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 659.113 ; gain = 424.988
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 30 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 659.418 ; gain = 118.570
-Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:31 . Memory (MB): peak = 659.418 ; gain = 424.793
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 659.113 ; gain = 119.020
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 659.113 ; gain = 424.988
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 192 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -535,9 +583,9 @@ INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-124 Infos, 85 Warnings, 20 Critical Warnings and 0 Errors encountered.
+124 Infos, 101 Warnings, 36 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 659.418 ; gain = 432.563
-INFO: [Common 17-1381] The checkpoint 'C:/Users/ablair18/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.runs/synth_1/Pong_TopLevel.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 659.418 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sun Dec 10 17:11:56 2017...
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 659.113 ; gain = 432.758
+INFO: [Common 17-1381] The checkpoint 'C:/Users/mgalle19/Documents/GitHub/CS373_FinalProject/Final_Project/Final_Project.runs/synth_1/Pong_TopLevel.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 659.113 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 11 09:54:54 2017...
